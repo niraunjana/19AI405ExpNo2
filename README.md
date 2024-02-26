@@ -115,16 +115,6 @@ F H <BR>
 <hr>
 ['0', '1', '2', '3', '4']
 
-### OUTPUT:
-
-INPUT:
-
-![WhatsApp Image 2024-02-25 at 22 54 22_90e4af5f](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/395dd990-7619-4dd5-827d-eceb27b1b6e6)
-
-OUTPUT:
-
-![WhatsApp Image 2024-02-25 at 22 54 52_27ff2aec](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/9d75c7fd-be1e-48f5-aad2-a9c2705743f3)
-
 
 <hr>
 <h3>Result:</h3>
