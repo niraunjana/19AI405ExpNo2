@@ -59,14 +59,16 @@ NAME      : NIRAUNJANA GAYATHRI G R
 REG NO.   : 212222230096
 ```
 ```
+
+  #import defaultdict
 from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
     visited[start]=True
     for neighbour in graph[start]:
         if visited[neighbour]==False:
-           dfs(graph,neighbour,visited,path)
-           visited[neighbour]=True
+            dfs(graph,neighbour,visited,path)
+            visited[neighbour]=True
     return path
 graph=defaultdict(list)
 n,e=map(int,input().split())
@@ -76,6 +78,30 @@ for i in range(e):
     graph[v].append(u)
 #print(graph)
 start='A'
+visited=defaultdict(bool)
+path=[]
+traversedpath=dfs(graph,start,visited,path)
+print(traversedpath)
+```
+```
+#import defaultdict
+from collections import defaultdict
+def dfs(graph,start,visited,path):
+    path.append(start)
+    visited[start]=True
+    for neighbour in graph[start]:
+        if visited[neighbour]==False:
+            dfs(graph,neighbour,visited,path)
+            visited[neighbour]=True
+    return path
+graph=defaultdict(list)
+n,e=map(int,input().split())
+for i in range(e):
+    u,v=map(str,input().split())
+    graph[u].append(v)
+    graph[v].append(u)
+#print(graph)
+start='0'
 visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
@@ -114,6 +140,12 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
+
+### Output:
+
+![image](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/044c863e-a22e-4451-8f27-2fa0e06ad3d3)
+
+![image](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/8dfb8f38-0763-4abd-af44-a8df10868b98)
 
 
 <hr>
