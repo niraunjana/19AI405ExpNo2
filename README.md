@@ -118,11 +118,9 @@ F H <BR>
 <hr>
 ['0', '1', '2', '3', '4']
 
-### Output:
+### Execution:
 
-![image](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/044c863e-a22e-4451-8f27-2fa0e06ad3d3)
-
-![image](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/8dfb8f38-0763-4abd-af44-a8df10868b98)
+![image](https://github.com/niraunjana/19AI405ExpNo2/assets/119395610/71dd5b7e-4c22-4c59-b5c8-773ed42854a5)
 
 
 <hr>
